@@ -3,7 +3,7 @@ package fr.anthonyquere.teashop;
 public class TeaCup {
     private int currentTemperatureCelsius;
     private Tea tea;
-    private boolean isEmpty;
+    private boolean isEmpty = true;
     private int steepingStartTime; // in seconds
 
     public void addWater(int temperatureCelsius) {
